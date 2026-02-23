@@ -148,7 +148,7 @@ const Home = () => {
           <div className="bg-white p-8 rounded-[24px] border border-[#DDDDE6]">
             <div className="text-[40px] mb-4">🎯</div>
             <h3 className="text-[20px] font-semibold text-[#191826] mb-2">1. ค้นหาโปรเจกต์</h3>
-            <p className="text-[#6E6E7A]">สำรวจโปรเจกต์จากนักศึกษาที่ตรงกับความสนใจของคุณ</p>
+            <p className="text-[#6E6E7A]">สำรวจโปรเจกต์จากนักศึกษาที่ตรงกับความสนใจของคุณ </p>
           </div>
           
           <div className="bg-white p-8 rounded-[24px] border border-[#DDDDE6]">
