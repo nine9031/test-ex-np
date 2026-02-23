@@ -5,6 +5,7 @@ import MainLayout from "../layouts/MainLayout";
 
 // public pages
 import Home from "../pages/public/Home";
+import Login from "../pages/public/Login";
 
 
 const Router = () => {
@@ -15,6 +16,7 @@ const Router = () => {
                 {/* public */}
                 <Route element={<MainLayout />}>
                     <Route path="/" element={<Home />} />
+                    <Route path="/login" element={<Login />}/>
                 </Route>
             </Routes>
         </BrowserRouter>
